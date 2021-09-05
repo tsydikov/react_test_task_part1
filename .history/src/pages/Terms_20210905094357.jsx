@@ -28,8 +28,8 @@ const Term = () => {
     if (terms) return;
     let callback = function (entries, observer) {
       if (entries[0].isIntersecting) {
-        numberOfUsersVisible.current = numberOfUsersVisible.current + 1
-        if (numberOfUsersVisible.current === 2) setVisibility('visible')
+        numberOfUsersVisible = numberOfUsersVisible + 1
+        if (numberOfUsersVisible === 2) setVisibility('visible')
       }
     }
     observer.current = new IntersectionObserver(callback);

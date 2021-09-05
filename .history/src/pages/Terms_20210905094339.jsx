@@ -9,7 +9,7 @@ import { useHistory } from 'react-router-dom';
 
 const Term = () => {
   const lastElement = useRef()
-  let numberOfUsersVisible = useRef(0)
+  const numberOfUsersVisible = useRef(0)
   const observer = useRef()
   const [visibility, setVisibility] = useState('hidden')
   const [terms, setTerms] = useState('')
@@ -28,8 +28,8 @@ const Term = () => {
     if (terms) return;
     let callback = function (entries, observer) {
       if (entries[0].isIntersecting) {
-        numberOfUsersVisible.current = numberOfUsersVisible.current + 1
-        if (numberOfUsersVisible.current === 2) setVisibility('visible')
+        numberOfUsersVisible = numberOfUsersVisible + 1
+        if (i === 2) setVisibility('visible')
       }
     }
     observer.current = new IntersectionObserver(callback);
