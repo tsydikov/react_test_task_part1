@@ -1,0 +1,15 @@
+.BtnReverse {
+    padding: 5px 15px;
+    color: #90F9AD;
+    font-size: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: #343a40;
+    border-radius: 5px;
+    display:flex;
+    align-items:stretch;
+    text-align: right;
+    margin-right: 15px;
+    margin: 0 10px;
+}

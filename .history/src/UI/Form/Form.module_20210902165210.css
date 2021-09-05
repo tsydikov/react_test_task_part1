@@ -1,0 +1,9 @@
+.form {
+    position:static;
+    width:400px;
+    height: 400px;
+    background: red;
+    box-shadow: #f4f5f6;
+    text-align: center;
+    border: 2px solid blue;
+}

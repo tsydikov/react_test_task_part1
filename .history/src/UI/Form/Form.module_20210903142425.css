@@ -1,0 +1,60 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 5px #e3e5e6;
+    width: 300px;
+    max-height: 350px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.form h1 {
+    text-align: left;
+    font-weight:bolder;
+    font-size: 18px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.form h1 svg {
+    align-self: flex-end;
+    opacity: 0.05;
+}
+.form h3 {
+    text-align: left;
+    font-size: 8px;
+    color: grey;
+    font-weight: inherit;
+}
+
+.twoButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.twoButtons button {
+    font-weight:600;
+    font-size: 10px;
+    padding-bottom:inherit;
+}
+
+.twoButtons svg {
+    width: 1rem;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+.BtnAndSpan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.BtnAndSpan span {
+    font-size: 9px;
+}
+

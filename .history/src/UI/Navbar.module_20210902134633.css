@@ -1,0 +1,8 @@
+.navbar_container {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: lightgrey;
+  }

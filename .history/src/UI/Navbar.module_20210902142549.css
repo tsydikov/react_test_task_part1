@@ -1,0 +1,22 @@
+.navbar_container {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+    color: #343a40;
+  }
+
+.navbarAuth {
+    margin-left: auto;
+  }
+.linkContainer {
+    text-align: center;
+  }
+.linkContainer a {
+    padding: 0 10px;
+}
+.navbarLogo {
+    margin-right: auto;
+}

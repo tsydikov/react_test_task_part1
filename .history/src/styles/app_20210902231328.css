@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:400px;
+    height: 400px;
+    background: red;
+    box-shadow: #f4f5f6;
+    
+}

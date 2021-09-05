@@ -1,0 +1,16 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 5px #e3e5e6;
+    width: 300px;
+    max-height: 350px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.form h1 {
+    text-align: left;
+    font-size: 14px;
+}

@@ -1,0 +1,29 @@
+.navbar_container {
+    height: 50px;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+    color: #343a40;
+    background: chocolate;
+  }
+
+
+.navbarAuth {
+  flex: 1;
+  display: flex;
+  padding: 10px 0;
+    /* margin-left: auto; */
+  }
+.linkContainer {
+  flex: 4;
+    /* text-align: center; */
+  }
+.linkContainer a {
+    padding: 0 10px;
+}
+.navbarLogo {
+  flex: 1;
+    /* margin-right: auto; */
+}
