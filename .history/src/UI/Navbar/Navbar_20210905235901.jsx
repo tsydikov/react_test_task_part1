@@ -62,7 +62,7 @@ const Navbar = () => {
                             <div className={cl.burgerLinks}>
                                 {nav.map(n =>
                                     // eslint-disable-next-line
-                                    <a>{n}<hr /></a>
+                                    <a key={n}>{n}<hr /></a>
                                 )}
                             </div>
                         </div>

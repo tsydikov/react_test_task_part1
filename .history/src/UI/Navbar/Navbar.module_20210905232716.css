@@ -1,0 +1,66 @@
+.navbar_container {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+    color: #343a40;
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar_container a {display: none;}
+    burgerContainer {display:flex;}
+
+  }
+
+.navbar_mobile {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 20px;
+  color: #343a40;
+}
+
+.navbarAuth {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: red;
+  }
+.linkContainer {
+  padding: 0 10px;
+  flex: 2;
+  }
+.linkContainer a {
+  font-size: 10px;
+    padding: 0 5px;
+}
+.navbarLogo {
+  background: red;
+  padding-right: 5px;
+  flex: 1;
+}
+.burgerContainer {
+  padding: 0 10px;
+  flex: 2;
+  height: 32px;
+  width: 50px;
+  cursor: pointer;
+  display: none;
+  }
+
+.burgerLinks {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+  margin-top: 7px;
+  margin-left: -80px;
+}
+.burgerLinks a {
+  font-size: 10px;
+  padding: 5px 0;
+}

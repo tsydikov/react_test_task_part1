@@ -13,7 +13,7 @@
     align-items: center;
     background-color: #f8f9fa;
     height: 100vh;
-    
+    min-height:fit-content;
 }
 
 @font-face {

@@ -34,7 +34,7 @@
       flex: 2;
       }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 680px) {
     .linkContainer {display: none;}
     .burgerContainer {display:block;}
   }

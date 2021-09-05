@@ -19,7 +19,7 @@ const Navbar = () => {
         'News',
         'Partners',
         'Careers',
-        'About Us'
+        'About'
     ]
     return (
         <div>
